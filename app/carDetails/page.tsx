@@ -10,11 +10,9 @@ import Slider from "react-slick";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 import { calculateCarRent } from "@/utils/requests";
 import CustomButton from "@/components/CustomButton";
-import { useRouter } from "next/navigation";
 import BookFormModal from "@/components/BookFormModal";
 
 const page: React.FC = ({}) => {
-	const router = useRouter();
 	const searchParams: URLSearchParams = useSearchParams();
 	const carParam = searchParams.get("car");
 	const carData = carParam ? JSON.parse(carParam) : null;
