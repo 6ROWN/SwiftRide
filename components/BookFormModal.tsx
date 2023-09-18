@@ -84,13 +84,8 @@ const BookFormModal: React.FC<ModalProps> = ({ closeModal }) => {
 							</label>
 							<input
 								id="address"
-								className="w-full px-10 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+								className="block w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
 								type="date"
-								placeholder="example@email.com"
-							/>
-							<BsPersonFill
-								size={20}
-								className="absolute top-9 mx-2 text-gray-600"
 							/>
 						</div>
 					</section>
