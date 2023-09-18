@@ -13,7 +13,7 @@ export const ContactInfo = () => {
 				</p>
 				<div className="flex space-x-4 items-center text-gray-600">
 					<LuPhoneCall />
-					<p className="text-sm">+233(0)554-949-3203</p>
+					<p className="text-sm">{"+233(0)554-949-3203"}</p>
 				</div>
 			</section>
 			<section className="flex flex-col space-y-2">
