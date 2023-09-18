@@ -12,7 +12,7 @@ import { calculateCarRent } from "@/utils/requests";
 import CustomButton from "@/components/CustomButton";
 import BookFormModal from "@/components/BookFormModal";
 
-const page = () => {
+const DetailsPage: React.FC = () => {
 	const searchParams: URLSearchParams = useSearchParams();
 	const carParam = searchParams.get("car");
 	const carData = carParam ? JSON.parse(carParam) : null;
@@ -208,4 +208,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default DetailsPage;

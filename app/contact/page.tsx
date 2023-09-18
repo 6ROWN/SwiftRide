@@ -6,7 +6,7 @@ import "react-international-phone/style.css";
 import { ContactInfo } from "@/components/ContactInfo";
 import { ContactForm } from "@/components/ContactForm";
 
-const page = () => {
+const ContactPage: React.FC = () => {
 	return (
 		<div className="w-[90%] mx-auto py-12">
 			<div className="flex flex-col items-center justify-center space-y-4 lg:space-y-8">
@@ -35,4 +35,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default ContactPage;
