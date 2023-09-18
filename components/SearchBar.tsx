@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SearchManufacturer from "./SearchManufacturer";
 import { FiSearch } from "react-icons/fi";
 import { useRouter } from "next/navigation";
-import { boolean } from "yup";
+
 const SearchBar = () => {
 	const [manufacturer, setManufacturer] = useState<string>("");
 	const [model, setModel] = useState<string>("");
