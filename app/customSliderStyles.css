@@ -1,0 +1,10 @@
+.slick-dots li button:before {
+	color: #fff; /* Change to your desired color */
+}
+
+/* Change the dot's active (selected) color */
+.slick-dots li.slick-active button:before {
+	color: #ecb22e; /* Change to your desired active color */
+}
+
+/* CustomSliderStyles.css */
